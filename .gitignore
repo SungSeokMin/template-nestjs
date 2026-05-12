@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+coverage/
+
+# Prisma config compiled output
+prisma.config.js
+prisma.config.js.map
+prisma.config.d.ts
+
+# Environment
+.env
+.env.development
+.env.production
+
+# Prisma
+prisma/migrations/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build info
+*.tsbuildinfo
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
