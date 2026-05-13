@@ -8,13 +8,14 @@ NestJS 프로젝트 초기 셋팅용 보일러플레이트 템플릿.
 |------|------|
 | Framework | NestJS 11 |
 | Language | TypeScript 5 |
+| Runtime | Node.js 22 |
 | ORM | Prisma 6 |
 | Database | PostgreSQL 16 |
 | Auth | JWT (access 24h / refresh 30d) |
 | Logging | Winston |
 | API Docs | Swagger |
-| Package Manager | pnpm |
-| Container | Docker (multi-stage) |
+| Package Manager | pnpm 9 |
+| Container | Docker (multi-stage, node:22-alpine) |
 | CI | GitHub Actions |
 
 ## 프로젝트 구조
@@ -69,7 +70,7 @@ src/
 
 ### 사전 요구사항
 
-- Node.js 20+
+- Node.js 22+
 - pnpm 9+
 - Docker
 
